@@ -1,0 +1,23 @@
+import java.io.*;
+import java.util.*;
+
+public class Solution {
+
+    public static void main(String[] args) {
+        
+        Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        String S = sc.next();
+        int start = sc.nextInt();
+        int end = sc.nextInt();
+        String s1 = S.substring(start,end);
+        System.out.println(s1);
+        
+        String sb=new StringBuffer(A).reverse().toString();
+          if(A.equals(sb)){
+          System.out.println("Yes");
+    
+          }   else{
+              System.out.println("No");
+          }         }
+          }
